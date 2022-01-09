@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* 10 Jan 2022 */
+
+* {
+    margin         : 0;
+    padding        : 0;
+    border         : 0;
+    outline        : none;
+    list-style     : none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing     : border-box;
+    font-family    : 'Nunito', sans-serif;
+    transition     : all .1s linear;
+    text-transform : capitalize;
+}
+
+@import 'variables';
+
+*::selection {
+    background-color: $green;
+    color           : $white;
+}
+
+html {
+    font-size         : 62.5%;
+    overflow-x        : hidden;
+    scroll-padding-top: 6.5rem;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+.btn {
+    display         : inline-block;
+    margin-top      : 1rem;
+    padding         : .8rem 3rem;
+    background-color: $green;
+    text-align      : center;
+    cursor          : pointer;
+    @include textStyle(1.7rem, $white);
+
+    &:hover {
+        background-color: $black;
+    }
+}
+
+@import 'header';
+@import 'home';
+@import 'banner-container';
+@import 'category';
+@import 'product';
+@import 'deal';
+@import 'contact';
+@import 'responsive';

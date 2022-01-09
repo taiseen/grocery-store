@@ -1,0 +1,26 @@
+.home {
+
+    @include flex(center);
+
+    .image {
+        flex       : 1 1 40rem;
+        padding-top: 5rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        flex: 1 1 40rem;
+
+        span {
+            @include textStyle(3rem, #666);
+        }
+
+        h3 {
+            @include textStyle(5rem, $black);
+        }
+    }
+
+}

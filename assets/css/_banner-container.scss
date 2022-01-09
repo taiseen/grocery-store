@@ -1,0 +1,39 @@
+.banner-container {
+
+    @include flex(space-between);
+
+    .banner {
+        flex    : 1 1 40rem;
+        height  : 25rem;
+        overflow: hidden;
+        position: relative;
+
+        img {
+            height    : 100%;
+            width     : 100%;
+            object-fit: cover;
+        }
+
+        &:hover img {
+            transform: scale(1.2) rotate(-5deg);
+        }
+
+        .content {
+            position : absolute;
+            top      : 50%;
+            left     : 4%;
+            transform: translateY(-50%);
+
+            h3 {
+                @include textStyle(3rem, $black);
+            }
+
+            p {
+                @include textStyle(2rem, #333);
+            }
+        }
+    }
+
+
+
+}

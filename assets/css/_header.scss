@@ -1,0 +1,103 @@
+.header-1 {
+
+    @include flex(space-between);
+    background-color: $off-white;
+    padding         : 2rem 9%;
+
+    .logo {
+        @include textStyle(3rem, $black);
+        font-weight: bolder;
+
+        i {
+            padding-right: .5rem;
+            color        : $green;
+        }
+    }
+
+    .search-box-container {
+        display    : flex;
+        align-items: center;
+        height     : 5rem;
+
+        #search-box {
+            height : 100%;
+            width  : 100%;
+            padding: 1rem;
+            border : .1rem solid rgba(0, 0, 0, .3);
+            @include textStyle (2rem, #333);
+        }
+
+        label {
+            height          : 100%;
+            width           : 8rem;
+            background-color: $green;
+            text-align      : center;
+            cursor          : pointer;
+            line-height     : 5rem;
+            @include textStyle (2.5rem, $white);
+
+            &:hover {
+                background-color: $black;
+            }
+        }
+
+    }
+}
+
+.header-2 {
+
+    @include flex(space-between);
+    background-color: $white;
+    padding         : 2rem 9%;
+    box-shadow      : 0 .5rem 1rem rgba(0, 0, 0, .3);
+    position        : relative;
+
+    &.fixedHere {
+        position: fixed;
+        top     : 0;
+        left    : 0;
+        right   : 0;
+        z-index : 1000;
+    }
+
+    #menu-bar {
+        @include textStyle(3rem, $black);
+        border-radius: .5rem;
+        border       : .1rem solid $black;
+        padding      : 0.8rem 1.5rem;
+        cursor       : pointer;
+        display      : none;
+
+        &:hover {
+            color: $green;
+        }
+    }
+
+    .navbar {
+
+        a {
+            margin-right : 1rem;
+            padding      : 1rem 2rem;
+            border-radius: .5rem;
+            @include textStyle(2rem, $black);
+
+            &:hover {
+                background-color: $green;
+                color           : $white;
+            }
+        }
+    }
+
+    .icons {
+
+        a {
+            margin-left: 2rem;
+            @include textStyle(3rem, $black);
+
+            &:hover {
+                color: $green;
+            }
+        }
+    }
+
+}
