@@ -64,7 +64,7 @@
     }
 
     #menu-bar {
-        @include textStyle(3rem, $black);
+        @include textStyle(2.5rem, $black);
         border-radius: .5rem;
         border       : .1rem solid $black;
         padding      : 0.8rem 1.5rem;

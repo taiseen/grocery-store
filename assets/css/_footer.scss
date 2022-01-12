@@ -1,0 +1,68 @@
+.footer {
+
+    .box-container {
+        @include flexWrap;
+
+        .box {
+            padding: 1rem 0;
+            flex   : 1 1 25rem;
+
+
+            .logo {
+                @include textStyle(5rem, green);
+            }
+
+            .share {
+                a {
+                    padding    : 0;
+                    height     : 4rem;
+                    width      : 4rem;
+                    line-height: 4rem;
+                    text-align : center;
+                }
+            }
+
+            .links {
+                a {
+                    display: block;
+                    padding: 0.5rem 0;
+                    @include textStyle(1.7rem, #333);
+
+                    &:hover {
+                        text-decoration: underline;
+                        color          : $green;
+                    }
+                }
+            }
+
+
+            h3 {
+                @include textStyle(2.5rem, $black);
+            }
+
+
+            p {
+                @include textStyle(1.3rem, #666);
+                padding     : 0.7rem 0;
+                margin-right: 2.5rem;
+            }
+        }
+    }
+
+
+    .credit {
+        padding   : 2.5rem 1rem;
+        border-top: .1rem solid rgba(0, 0, 0, 0.1);
+        margin-top: 1rem;
+        text-align: center;
+        @include textStyle(2.5rem, #333);
+
+        br {
+            display: none;
+        }
+
+        span {
+            color: $green;
+        }
+    }
+}

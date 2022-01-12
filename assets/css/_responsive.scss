@@ -27,9 +27,11 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 810px) {
 
     .header-2 {
+
+        padding: .8rem;
 
         #menu-bar {
             display: initial;
@@ -40,7 +42,7 @@
             top                : 100%;
             left               : 0;
             right              : 0;
-            padding            : 1rem 2rem;
+            padding            : .8rem 1.5rem;
             background-color   : #DDD;
             transition         : .5s ease;
             // display         : none;
@@ -49,7 +51,7 @@
             a {
                 display         : block;
                 text-align      : center;
-                font-size       : 2.5rem;
+                font-size       : 1.8rem;
                 background-color: $white;
                 padding         : 1rem;
                 margin          : 1rem;
@@ -58,6 +60,12 @@
             &.userClick {
                 // display: initial;
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
+        }
+
+        .icons {
+            a {
+                font-size: 2.2rem;
             }
         }
     }
@@ -80,9 +88,29 @@
         }
     }
 
+    .newsletter {
+        background-position: right;
+
+        h3 {
+            font-size: 2rem;
+        }
+    }
+
+
+    .footer {
+        text-align: center;
+
+        .credit {
+            font-size: 2rem;
+
+            br {
+                display: block;
+            }
+        }
+    }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 550px) {
 
     html {
         font-style: 50%;
@@ -101,6 +129,16 @@
 
         .search-box-container {
             width: 100%;
+        }
+    }
+
+    .contact {
+        form {
+            .inputBox {
+                input {
+                    width: 100%;
+                }
+            }
         }
     }
 

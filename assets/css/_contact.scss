@@ -1,0 +1,29 @@
+.contact {
+
+    form {
+
+        text-align: center;
+        padding   : 2rem;
+        border    : .1rem solid rgba(0, 0, 0, 0.1);
+
+        .inputBox {
+            display        : flex;
+            flex-wrap      : wrap;
+            justify-content: space-between;
+
+            input {
+                @include contactArea;
+            }
+        }
+
+        textarea {
+            @include contactArea;
+            height: 20rem;
+            width : 100%;
+            resize: none;
+        }
+
+
+    }
+
+}

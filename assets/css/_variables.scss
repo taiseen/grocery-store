@@ -28,3 +28,12 @@ $off-white: #EEE;
     font-size: $size;
     color    : $color;
 }
+
+@mixin contactArea {
+    width           : 49%;
+    padding         : 1rem;
+    margin          : 1rem 0;
+    font-size       : 1.7rem;
+    background-color: #f7f7f7;
+    border          : .1rem solid rgba(0, 0, 0, 0.3);
+}
