@@ -36,15 +36,15 @@
         }
 
         .navbar {
-            position        : absolute;
-            top             : 100%;
-            left            : 0;
-            right           : 0;
-            padding         : 1rem 2rem;
-            background-color: #DDD;
-            transition      : .5s ease;
+            position           : absolute;
+            top                : 100%;
+            left               : 0;
+            right              : 0;
+            padding            : 1rem 2rem;
+            background-color   : #DDD;
+            transition         : .5s ease;
             // display         : none;
-            clip-path       : polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path          : polygon(0 0, 100% 0, 100% 0, 0 0);
 
             a {
                 display         : block;
@@ -61,6 +61,25 @@
             }
         }
     }
+
+    .deal {
+        background-position: left;
+
+        .content {
+            max-width : 100%;
+            text-align: center;
+
+            .count-down {
+
+                justify-content: center;
+
+                .box {
+                    flex: 1 1 12rem;
+                }
+            }
+        }
+    }
+
 }
 
 @media (max-width: 530px) {
@@ -69,7 +88,7 @@
         font-style: 50%;
     }
 
-    .heading{
+    .heading {
         font-size: 3rem;
     }
 
@@ -81,7 +100,7 @@
         }
 
         .search-box-container {
-            width     : 100%;
+            width: 100%;
         }
     }
 
