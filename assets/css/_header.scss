@@ -1,8 +1,12 @@
+.header-1,
+.header-2 {
+    padding: 2rem 9%;
+}
+
 .header-1 {
 
     @include flex(space-between);
     background-color: $off-white;
-    padding         : 2rem 9%;
 
     .logo {
         @include textStyle(3rem, $black);
@@ -48,7 +52,6 @@
 
     @include flex(space-between);
     background-color: $white;
-    padding         : 2rem 9%;
     box-shadow      : 0 .5rem 1rem rgba(0, 0, 0, .3);
     position        : relative;
 

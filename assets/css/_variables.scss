@@ -4,6 +4,12 @@ $white    : #FFF;
 $off-white: #EEE;
 
 
+@mixin flexWrap {
+    display  : flex;
+    flex-wrap: wrap;
+    gap      : 1.5rem;
+}
+
 @mixin flex ($value) {
     display        : flex;
     flex-wrap      : wrap;

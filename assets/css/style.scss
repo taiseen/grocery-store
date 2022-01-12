@@ -33,6 +33,19 @@ section {
     padding: 2rem 9%;
 }
 
+.heading {
+    @include textStyle(3.5rem, $black);
+    padding       : 1rem;
+    text-align    : center;
+    text-transform: uppercase;
+
+    span {
+        color: $green;
+        text-transform: uppercase;
+    }
+
+}
+
 .btn {
     display         : inline-block;
     margin-top      : 1rem;
@@ -51,7 +64,7 @@ section {
 @import 'home';
 @import 'banner-container';
 @import 'category';
-@import 'product';
-@import 'deal';
-@import 'contact';
+// @import 'product';
+// @import 'deal';
+// @import 'contact';
 @import 'responsive';
