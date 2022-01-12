@@ -201,6 +201,84 @@ section {
     .category .box-container .box .btn {
       display: block; }
 
+.products .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; }
+  .products .box-container .box {
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative; }
+    .products .box-container .box img {
+      height: 20rem; }
+    .products .box-container .box .discount {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      padding: 0.7rem 1rem;
+      border-radius: .5rem;
+      background: rgba(0, 255, 0, 0.1);
+      font-size: 2rem;
+      color: #27ae60; }
+    .products .box-container .box .icon {
+      position: absolute;
+      top: 0.2rem;
+      right: -6rem; }
+      .products .box-container .box .icon a {
+        display: block;
+        height: 4.5rem;
+        width: 4.5rem;
+        line-height: 4.5rem;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: .5rem;
+        margin-top: .7rem;
+        font-size: 1.7rem;
+        color: #2c2c54; }
+        .products .box-container .box .icon a:hover {
+          background-color: #2dc76e;
+          color: #fff; }
+    .products .box-container .box:hover .icon {
+      right: 1rem; }
+    .products .box-container .box h3 {
+      font-size: 2.5rem;
+      color: #2c2c54; }
+    .products .box-container .box .stars i {
+      padding: 1rem 0.1rem;
+      font-size: 1.7rem;
+      color: gold; }
+    .products .box-container .box .price {
+      font-size: 2rem;
+      color: #333;
+      padding: .5rem 0; }
+      .products .box-container .box .price span {
+        font-size: 1.5rem;
+        color: #999;
+        text-decoration: line-through; }
+    .products .box-container .box .quantity {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 1rem;
+      padding-bottom: 1rem; }
+      .products .box-container .box .quantity span {
+        padding: 0 .7rem;
+        font-size: 1.7rem; }
+      .products .box-container .box .quantity input {
+        width: 30%;
+        border: 0.1rem solid rgba(0, 0, 0, 0.3);
+        background-color: rgba(0, 0, 0, 0.05);
+        padding: .5rem;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        color: #2c2c54; }
+    .products .box-container .box .btn {
+      display: block;
+      border-radius: .5rem; }
+
 @media (max-width: 1200px) {
   html {
     font-style: 55%; } }
