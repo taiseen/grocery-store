@@ -1,4 +1,4 @@
-# SEO Webpage | [Live-Link](https://taiseen.github.io/grocery-store)
+# Grocery Store | [Live-Link](https://taiseen.github.io/grocery-store)
 
 ## Inspire & Learning From ==> [this link](https://youtu.be/72CL_yne8y0)
 
