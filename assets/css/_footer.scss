@@ -1,12 +1,12 @@
 .footer {
 
     .box-container {
+
         @include flexWrap;
 
         .box {
             padding: 1rem 0;
             flex   : 1 1 25rem;
-
 
             .logo {
                 @include textStyle(5rem, green);
@@ -35,7 +35,7 @@
                 }
             }
 
-
+            
             h3 {
                 @include textStyle(2.5rem, $black);
             }

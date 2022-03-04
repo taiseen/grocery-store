@@ -1,4 +1,4 @@
-// 1 Jan 2022
+// 9 Jan 2022
 
 const Day = document.getElementById('day');
 const Hour = document.getElementById('hour');
@@ -10,7 +10,7 @@ const navBar = document.querySelector('.navbar');
 const navLinks = document.querySelectorAll('.navbar a');
 const menuHeader = document.querySelector('.header-2');
 
-let countDate = new Date('mar 1, 2022 00:00:00');
+let countDate = new Date('may 1, 2022 00:00:00');
 
 const CountDown = () => {
 

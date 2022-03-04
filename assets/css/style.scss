@@ -23,11 +23,13 @@
     color           : $white;
 }
 
+
 html {
     font-size         : 62.5%;
     overflow-x        : hidden;
     scroll-padding-top: 6.5rem;
 }
+
 
 section {
     padding: 2rem 9%;
@@ -44,8 +46,8 @@ section {
         color: $green;
         text-transform: uppercase;
     }
-
 }
+
 
 .btn {
     display         : inline-block;

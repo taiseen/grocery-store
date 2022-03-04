@@ -1,6 +1,7 @@
 .category {
 
     .box-container {
+        
         @include flexWrap;
 
         .box {
@@ -30,6 +31,4 @@
             }
         }
     }
-
-
 }

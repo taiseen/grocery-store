@@ -1,6 +1,7 @@
-# Grocery Store | [Live-Link](https://taiseen.github.io/grocery-store)
+9 Jan 2022
 
-## Inspire & Learning From ==> [this link](https://youtu.be/rGtNYW_DK44)
+# Grocery Store | [Live Link](https://taiseen.github.io/grocery-store)
+
 
 ## Learning Context
 - SASS ==> variable , nesting , @mixing + @include 
@@ -8,3 +9,5 @@
 - Top menubar fixing
 - Responsiveness
 - Date Counter
+
+Inspire by learning from[.](https://youtu.be/rGtNYW_DK44)
